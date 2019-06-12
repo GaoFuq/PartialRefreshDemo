@@ -34,16 +34,30 @@
             android:focusable="false"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="下载" />
+            android:text="点击" />
     </LinearLayout>
 
-    <ProgressBar
+   <!-- <ProgressBar
         android:visibility="invisible"
         android:id="@+id/itemProgress"
         style="@style/Widget.AppCompat.ProgressBar.Horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:max="100" />
+        android:max="100" />-->
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#147852"
+        android:textColor="#fff"
+        />
 
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_inner"
+        android:background="#ccc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
 
 </LinearLayout>

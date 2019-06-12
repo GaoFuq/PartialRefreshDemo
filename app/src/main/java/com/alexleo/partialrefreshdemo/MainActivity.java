@@ -1,3 +1,4 @@
+/*
 package com.alexleo.partialrefreshdemo;
 
 import android.content.Intent;
@@ -37,3 +38,4 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 }
+*/

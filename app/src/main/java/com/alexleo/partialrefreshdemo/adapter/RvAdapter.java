@@ -1,3 +1,4 @@
+/*
 package com.alexleo.partialrefreshdemo.adapter;
 
 import android.content.Context;
@@ -17,10 +18,12 @@ import com.bumptech.glide.Glide;
 
 import java.util.List;
 
+*/
 /**
  * Created by Alex on 2017/1/18.
  * Alex
- */
+ *//*
+
 
 public class RvAdapter extends RecyclerView.Adapter<RvAdapter.MyViewHolder> implements DownLoadManager.DownCallBack{
 
@@ -134,3 +137,4 @@ public class RvAdapter extends RecyclerView.Adapter<RvAdapter.MyViewHolder> impl
     }
 
 }
+*/
